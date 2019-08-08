@@ -25,7 +25,7 @@
         $listItem = $_POST['txtTodo'];
     }
     // create a connection to the db
-    $mysqli = new mysqli("localhost", "root", "lampclock", "todo");
+    $mysqli = new mysqli("localhost", "robert", "Tangoecho44", "todo");
     //check connection to db
     if ($mysqli->connect_error){
         die("Connection failed: " . $mysqli->connect_error);
